@@ -1,0 +1,8 @@
+@import 'sass-rem';
+@import 'assets/variables';
+
+.card-theme {
+  background: map-get($palette, pure);
+  border: 1px solid map-get($palette, border-line);
+  box-shadow: 0 0 rem(10px) 0 map-get($palette, border-shadow);
+}

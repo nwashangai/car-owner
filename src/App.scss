@@ -1,0 +1,33 @@
+@import 'sass-rem';
+@import './assets/variables';
+
+.App {
+  position: relative;
+  background: map-get($palette, bg);
+  height: 100vh;
+  margin: 0 20%;
+}
+
+.row {
+  display: flex;
+  margin-right: 0;
+  margin-left: 0;
+  flex-wrap: wrap;
+}
+
+.col {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  border: rem(1px) solid #f8f4f4;
+  border-radius: rem(10px);
+  box-shadow: 0 rem(5px) rem(8px) #00000046;
+}
+
+@media (max-width: rem(946px)) {
+  .App {
+    margin: 0 rem(5px);
+  }
+}
