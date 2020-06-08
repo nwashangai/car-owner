@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Card component displays card with child props 1`] = `ReactWrapper {}`;

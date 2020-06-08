@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Color component displays color 1`] = `ReactWrapper {}`;
+
+exports[`The Tag component displays Tag 1`] = `ReactWrapper {}`;

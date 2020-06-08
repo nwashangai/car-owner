@@ -1,0 +1,52 @@
+@import 'sass-rem';
+@import 'assets/variables';
+
+.pages {
+  position: relative;
+
+  &__filters {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__no-filter,
+  &__no-record {
+    margin: rem(30px) auto;
+    font-size: rem(20px);
+    font-weight: bolder;
+    text-align: center;
+    color: map-get($grey, 500);
+  }
+
+  &__load-more {
+    align-items: center;
+    text-align: center;
+  }
+
+  &__filter-icon,
+  &__records-icon {
+    display: flex;
+
+    span {
+      margin: auto;
+      margin-left: rem(10px);
+      font-size: rem(20px);
+    }
+  }
+
+  &__spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+
+    &__loader {
+      width: rem(150px);
+      height: rem(150px);
+      border: rem(6px) solid map-get($grey, 500);
+      border-right-color: transparent;
+    }
+  }
+}

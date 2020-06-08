@@ -1,0 +1,9 @@
+@import 'sass-rem';
+@import 'assets/variables';
+
+.tag {
+  background-color: map-get($grey, 200);
+  margin: 0 rem(4px);
+  padding: rem(7px);
+  border-radius: rem(13px);
+}
